@@ -1,7 +1,7 @@
 //Programs that heal the host in some way.
 
 /datum/nanite_program/regenerative
-	name = "Accelerated Regeneratio"
+	name = "Accelerated Regeneration"
 	desc = "The nanites boost the host's natural regeneration, increasing their healing speed. Does not consume nanites if the host is unharmed."
 	use_rate = 0.5
 	rogue_types = list(/datum/nanite_program/necrotic)
