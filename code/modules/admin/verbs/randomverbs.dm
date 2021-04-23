@@ -1133,6 +1133,9 @@ Traitors and the like can also be revived with the previous role mostly intact.
 	var/obj/item/food/bread/plain/bread = new(get_turf(target))
 	target.forceMove(bread)
 
+/proc/trapify(atom/movable/target)
+	var/obj/item/toy/plush/astolfo = new(get_turf(target))
+	target.forceMove(astolfo)
 /**
  * firing_squad is a proc for the :B:erforate smite to shoot each individual bullet at them, so that we can add actual delays without sleep() nonsense
  *

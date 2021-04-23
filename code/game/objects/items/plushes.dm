@@ -569,6 +569,11 @@
 	gender = FEMALE
 	squeak_override = list('sound/voice/moth/scream_moth.ogg'=1)
 
+/obj/item/toy/plush/astolfo
+	name = "BEAN ASTOLFO PLUSHIE"
+	desc = "ASTOLFO BEAN PLUSHIE THAT SUCKS YOUR DICK AND CALLS YOU GAY."
+	icon_state = "astolfo"
+
 /obj/item/toy/plush/goatplushie
 	name = "strange goat plushie"
 	icon_state = "goat"
